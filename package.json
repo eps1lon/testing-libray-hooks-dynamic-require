@@ -1,0 +1,20 @@
+{
+  "name": "testing-libray-hooks-dynamic-require",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "server": "yarn serve ."
+  },
+  "dependencies": {
+    "@testing-library/react-hooks-v4": "npm:@testing-library/react-hooks@^4.0.0",
+    "@testing-library/react-hooks-v5": "npm:@testing-library/react-hooks@^5.0.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-test-renderer": "^16.14.0",
+    "serve": "^11.3.2",
+    "webpack": "4.x",
+    "webpack-cli": "^4.3.1"
+  }
+}
